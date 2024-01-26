@@ -15,8 +15,9 @@
 Вывод: 160
 
 Решение:
-
->a,b,c,d=map(int,input().split()) \n
->print(d,b)
->print(d//b)
->print(((d//b)//(d//b-0.4)))
+``` Python 
+a,b,c,d=map(int,input().split()) \n
+print(d,b)
+print(d//b)
+print(((d//b)//(d//b-0.4)))
+```
