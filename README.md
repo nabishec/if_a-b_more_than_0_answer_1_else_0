@@ -17,7 +17,5 @@
 Решение:
 ``` Python 
 a,b,c,d=map(int,input().split())
-print(d,b)
-print(d//b)
-print(((d//b)//(d//b-0.4)))
+print(c*(d-b)*((d//b)//(d//b-0.4))+a)
 ```
